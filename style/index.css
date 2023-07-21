@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stroke_it {
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+  color: transparent;
+}

@@ -15,11 +15,7 @@ const Project = ({ project }: { project: projectType }) => {
           alt={project.image.alt}
           fill
         />
-        <Link
-          href={project.url}
-          className='group-hover:opacity-100 hidden lg:flex opacity-0 items-center justify-center gap-2 flex-col overlay absolute top-0 left-0 w-full h-full z-20 bg-gray-900/90 duration-300 ease-linear transition-all cursor-pointer'
-          target='_blank'
-        >
+        <div className='group-hover:opacity-100 hidden lg:flex opacity-0 items-center justify-center gap-2 flex-col overlay absolute top-0 left-0 w-full h-full z-20 bg-gray-900/90 duration-300 ease-linear transition-all cursor-pointer'>
           <h3 className={`${cinzel.className} text-xl uppercase`}>
             {project.name}
           </h3>
@@ -37,7 +33,7 @@ const Project = ({ project }: { project: projectType }) => {
               </button>
             </Link>
           </div>
-        </Link>
+        </div>
       </div>
 
       <div className='flex items-center gap-2 lg:hidden flex-wrap justify-center my-6'>

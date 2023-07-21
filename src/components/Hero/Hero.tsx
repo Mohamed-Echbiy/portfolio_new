@@ -15,22 +15,22 @@ const Hero = () => {
         <div className='max-w-md flex flex-col gap-y-10 text-center'>
           <h1 className={`${cinzel.className} text-5xl`}>Hi, I'm Mohamed </h1>
           <p className=' capitalize'>
-            <span>web developer and freelancer</span>
-            <span className='flex items-center gap-2'>
+            <span className='block mb-3'>web developer and freelancer</span>
+            <span className='flex items-center gap-2 justify-center w-full'>
               <Link
                 href='https://www.linkedin.com/in/mohamed-echbiy-442aa9244/'
                 target='_blank'
               >
-                <BsLinkedin />
+                <BsLinkedin size={20} />
               </Link>
               <Link href='https://github.com/Mohamed-Echbiy' target='_blank'>
-                <BsGithub />
+                <BsGithub size={20} />
               </Link>
               <Link
                 href='https://www.codewars.com/users/Mohamed-Echbiy'
                 target='_blank'
               >
-                <SiCodewars />
+                <SiCodewars size={20} />
               </Link>
             </span>
           </p>

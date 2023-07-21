@@ -13,10 +13,10 @@ const ProjectsContainer = async () => {
   return (
     <div
       id='projects'
-      className='grid gap-3 mb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center'
+      className='grid gap-3 mb-20 grid-cols-1 md:grid-cols-2 items-center justify-center'
     >
       <h2
-        className={`${cinzel.className} xl:col-span-3 lg:col-span-2 uppercase underline underline-offset-4 mb-12 text-center text-5xl`}
+        className={`${cinzel.className}  md:col-span-2 uppercase underline underline-offset-4 mb-12 text-center text-5xl`}
       >
         Projects
       </h2>
